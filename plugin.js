@@ -65,3 +65,4 @@ function decodeMessage() {
     document.getElementById("newMessage").innerHTML = '<h3 style="border:2px solid Blue;">' + "<br>Possible Solutions : <br>&nbsp;&nbsp;" + solution + "</h3>";
 }
 //JavaScript commands end here.
+
