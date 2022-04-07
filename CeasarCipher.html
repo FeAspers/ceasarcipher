@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<!--- Ceasar_coder.html web fils ---->?
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Winston Coder</title>
+</head>
+<body>
+	<h1>Message Coder / Decoder</h1>
+	<h3><em>Enter a message to have it turned into a shift coded message or to decode a message.</em></h3>
+	<br><h3>Click button for your choice</h3><br>
+	
+	<!--- Code to place buttons and display results --->
+	<form>
+		<br><br>
+		<input type="button" value="CODE" onclick="encodeMessage()">
+		<input type="button" value="DECODE" onclick="decodeMessage()">
+		<br><br>
+	</form>
+	
+	<!--- Location id's to hold values on HTML page --->
+	<p id="messageGiven" >Your Message ;</p>
+	<p id="newMessage" >Results ;</p>
+
+	<!--- Insert JavaScript from another file. --->
+	<script src = "CeasarCipher.js"></script>
+	
+</body>
+</html>
